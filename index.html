@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bảng điểm</title>
+  <title>joke app</title>
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
 <body>
-  <h2>Nhập tên và điểm</h2>
   <div>
-    <label for="tên"> Tên:</label>
-    <input type="text"id="name"><br>
-  </div>
-  <div>
-    <label for="điểm"> Điểm:</label>
-    <input type="text"id="điểm"><br>
-  </div>
-  <button onclick="hienDiem()">Thêm</button>
+    <p id="end-message" stype="display:none;">
+      That's all the joker for today! Come back another day!
+    </p>
+    <p id="joke-content" class="joke"></p>
+    <div class="buttons">
+      <button id="likeBtn">Like</button>
+      <button id="dislikeBtn">Dislike</button>
 
-  <table>
-    <tr><th>Tên</th><th>Điểm</th></tr>
-    <tbody id="bang"></tbody>
-  </table>
+    </div>
+  </div>
+  
 </body>
 </html>
