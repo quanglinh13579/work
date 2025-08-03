@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bảng điểm</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h2>Nhập tên và điểm</h2>
+  <div>
+    <label for="tên"> Tên:</label>
+    <input type="text"id="name"><br>
+  </div>
+  <div>
+    <label for="điểm"> Điểm:</label>
+    <input type="text"id="điểm"><br>
+  </div>
+  <button onclick="hienDiem()">Thêm</button>
+
+  <table>
+    <tr><th>Tên</th><th>Điểm</th></tr>
+    <tbody id="bang"></tbody>
+  </table>
+</body>
+</html>
